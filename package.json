@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "generatePassword": "node password-generator.js",
+    "dockerPs": "node dockerPs.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "generate-password": "^1.4.1"
+    "generate-password": "^1.4.1",
+    "shelljs": "^0.8.3"
   }
 }
